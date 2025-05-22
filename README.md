@@ -44,3 +44,9 @@ python -m metadrive.examples.final_code
 ```
 ! Note that the simulation assumes you are using port COM5. Change line 12 from `final_code.py` to adapt it to your port.
 
+### Troubleshooting
+If the MetaDrive simulation does not run, try running these commands (to run a setup file from the original repository) before installing the requirements from Step 2:
+```python
+cd metadrive
+pip install -e .
+```
