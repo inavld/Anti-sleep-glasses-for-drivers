@@ -18,17 +18,17 @@
 There are 2 main steps required to be able to replicate this project and run it at home.  
 
 ## Step 1 (Run Arduino code)
-Download the Arduino IDE (version 2.3.6 was used) and upload the file `arduino_code.ino`. Select the Arduino Nano board as the controller from the interface and upload the code to the real board.  
-This code will make the buzzer activate when the eyes are detected as closed and print the responses to the serial monitor which will serve as input to the MetaDrive simulation.  
+-Download the Arduino IDE (version 2.3.6 was used) and upload the file `arduino_code.ino`. Select the Arduino Nano board as the controller from the interface and upload the code to the real board.  
+-This code will make the buzzer activate when the eyes are detected as closed and print the responses to the serial monitor which will serve as input to the MetaDrive simulation.  
 ## Step 2 (Run the MetaDrive modified simulation)
 
-Install the necessary libraries from requirements.txt:  
+Install the necessary libraries from `requirements.txt`:  
 
 ```bash
 pip install -r requirements.txt
 ```
 
-You can verify the installation of MetaDrive modified repo via running the testing script:  
+You can verify the installation of MetaDrive modified repository by running the testing script:  
 
 ```bash
 # Go to a folder where no sub-folder calls metadrive
@@ -42,5 +42,5 @@ You can run the simulation that includes serial communication with the glasses. 
 ```bash
 python -m metadrive.examples.final_code
 ```
-! Note that the simulation assumes you are using port COM5. Change line 12 from final_code.py to adapt it to your port.
+! Note that the simulation assumes you are using port COM5. Change line 12 from `final_code.py` to adapt it to your port.
 
