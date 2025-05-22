@@ -19,6 +19,7 @@ There are 2 main steps required to be able to replicate this project and run it 
 
 ## Step 1 (Run Arduino code)
 Download the Arduino IDE (version 2.3.6 was used) and upload the file `arduino_code.ino`. Select the Arduino Nano board as the controller from the interface and upload the code to the real board.  
+This code will make the buzzer activate when the eyes are detected as closed and print the responses to the serial monitor which will serve as input to the MetaDrive simulation.  
 ## Step 2 (Run the MetaDrive modified simulation)
 
 Install the necessary libraries from requirements.txt:  
