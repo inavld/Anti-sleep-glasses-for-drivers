@@ -18,7 +18,7 @@
 There are 2 main steps required to be able to replicate this project and run it at home.  
 
 ## Step 1 (Run Arduino code)
-Download the Arduino IDE (version 2.3.6 was used) and upload the file `arduino_code`. Select the Arduino Nano board as the controller from the interface and upload the code to the real board.  
+Download the Arduino IDE (version 2.3.6 was used) and upload the file `arduino_code.ino`. Select the Arduino Nano board as the controller from the interface and upload the code to the real board.  
 ## Step 2 (Run the MetaDrive modified simulation)
 
 Install the necessary libraries from requirements.txt:  
